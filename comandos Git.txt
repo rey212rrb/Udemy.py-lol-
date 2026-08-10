@@ -1,0 +1,11 @@
+git init (Inicializa la carpeta en tu laptop)
+
+git add .
+
+git commit -m "Primer commit"
+
+git branch -M main (Asegura que la rama se llame main)
+
+git remote add origin <URL_DE_TU_REPOSITORIO> (Vincula con la nube)
+
+git push -u origin main (Sube por primera vez)
