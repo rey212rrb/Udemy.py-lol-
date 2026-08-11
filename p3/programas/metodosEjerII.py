@@ -4,6 +4,6 @@
 
 #print("agua" not in poema)
 
-    texto = "electroencefalografista"
+texto = "electroencefalografista"
 
 print(len(texto))
