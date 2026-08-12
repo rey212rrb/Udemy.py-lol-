@@ -32,10 +32,17 @@ print(f"La ultima letra es {texto_ingresado[-1]}")
 texto_inverso = texto_ingresado[::-1]
 print(texto_inverso)
 
+#Palabras al reves
+palabras2 = texto_ingresado.split()
+palabras2.reverse()
+texto_inverso2 = " ".join(palabras2)
+print(texto_inverso2)
+
 #7. Verificamos si extiste la palabra python en el texto ingresado
-print("python" in texto_ingresado)
+buscarPython = "python" in texto_ingresado
 
 veredicto = {
     False : "No se encontro",
     True : "Se encontro"
 }
+print(f"La palabra 'Python' {veredicto[buscarPython]}")
